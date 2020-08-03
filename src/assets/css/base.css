@@ -1,0 +1,30 @@
+:root{
+  --text-color: #666;
+  --background-color: #eee;
+  --image-error-bg-color: #eee;
+  --shadow-color: #ccc;
+  --tab-bar-height: 49px;
+}
+
+a{
+	text-decoration: none;
+	color: var(--text-color);
+	-webkit-tap-highlight-color: transparent;
+	
+}
+.flex-row{
+  display: flex;;
+  flex-direction: row;
+}
+.flex-column{
+  display: flex;;
+  flex-direction: column;
+}
+.text-center{
+	text-align: center;
+}
+.over-text-ellipsis{
+	text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}

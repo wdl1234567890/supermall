@@ -1,0 +1,1 @@
+export const BACK_TO_TOP = 300
